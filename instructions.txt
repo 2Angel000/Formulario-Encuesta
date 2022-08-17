@@ -1,0 +1,122 @@
+1. Debes tener un título de página en un elemento h1 con un id de title
+
+2. Debe tener una breve explicación en un elemento p con un id de description
+
+3. Debe tener un elemento de formulario con un id de survey-form
+
+4. Dentro del elemento formulario, debe introducir su nombre en un campo de entrada que tiene un id de nombre y un tipo de texto
+
+5. Dentro del elemento de formulario, se requiere que introduzca su correo electrónico en un campo de entrada que tiene un id de correo electrónico
+
+6. Si introduce un correo electrónico que no está formateado correctamente, verá un error de validación HTML5
+
+7. Dentro del formulario, puedes introducir un número en un campo de entrada que tiene un id de número
+
+8. Si introduces un número que no es de este tipo, verás un error de validación de HTML5
+
+9. Si introduces números fuera del rango de la entrada numérica, definidos por los atributos min y max, verás un error de validación HTML5
+
+10. Para los campos de entrada de nombre, correo electrónico y número, puedes ver los elementos de etiqueta correspondientes en el formulario, que describen el propósito de cada campo con los siguientes ids: id="name-label", id="email-label", y id="number-label"
+
+11. Dentro del elemento del formulario, debes tener un elemento desplegable de selección con un id de dropdown y al menos dos opciones para elegir
+
+12. Dentro del elemento del formulario, debes tener un elemento desplegable de selección con un id de dropdown y al menos dos opciones para elegir
+
+13. Dentro del elemento formulario, puedes seleccionar una opción de un grupo de al menos dos botones de radio que se agrupan utilizando el atributo name
+
+14. Dentro del elemento formulario, puedes seleccionar varios campos de una serie de casillas de verificación, cada una de las cuales debe tener un atributo value
+
+15. Dentro del elemento formulario, se presenta un área de texto para comentarios adicionales
+
+16. Dentro del elemento formulario, se presenta un botón con id de submit para enviar todas las entradas
+
+
+Pruebas
+ Debes tener un elemento h1 con un id de title.
+
+ Tu #title no debe estar vacío.
+
+ Debes tener un elemento p con un id de descripción.
+
+ Tu #description no debe estar vacío.
+
+ Debes tener un elemento form con un id de survey-form.
+
+ Debes tener un elemento input con un id de name.
+
+ Tu #nombre debe tener un tipo de texto.
+
+ Tu #nombre debe requerir una entrada.
+
+ Tu #nombre debe ser un descedente de #forma-encuesta.
+
+ Tu #nombre debe tener un elemento de entrada con un id de correo electrónico.
+
+ Tu #email debe tener un tipo de correo electrónico.
+
+ Tu #email debe requerir una entrada.
+
+ Tu #email debe ser un descedente de #survey-form
+
+ Tu #email debe tener un elemento de entrada con un id de número.
+
+ Tu #número debe ser un descendiente de #formulario-encuesta.
+
+ Tu #número debe tener un tipo de número.
+
+ Tu #número debe tener un atributo min con un valor numérico.
+
+ Tu #número debe tener un atributo max con un valor numérico.
+
+ Deberías tener un elemento label con un id de name-label.
+
+ Deberías tener un elemento label con un id de email-label.
+
+ Deberías tener un elemento label con un id de number-label.
+
+ Tu #nombre-etiqueta no debe estar vacío.
+
+ Tu etiqueta #email no debe estar vacía.
+
+ Tu etiqueta #number no debe estar vacía.
+
+ Su etiqueta #nombre debe ser un descendiente de #forma-de-encuesta.
+
+ Su etiqueta #email debe ser un descendiente de #forma-de-encuesta.
+
+ Tu etiqueta #número debe ser una descendiente de #forma-de-encuesta.
+
+ Su #nombre debe tener un atributo y un valor de marcador de posición.
+
+ Su #correo electrónico debe tener un atributo y un valor de marcador de posición.
+
+ Su #número debe tener un atributo de marcador de posición y un valor.
+
+ Tu campo #dropdown debe tener un atributo y un valor.
+
+ Tu #dropdown debe tener al menos dos elementos de opción seleccionables (no desactivados).
+
+ Tu #dropdown debe ser un descendiente de #survey-form.
+
+ Debe tener al menos dos elementos de entrada con un tipo de radio (botones de radio).
+
+ Debes tener al menos dos botones de radio que sean descendientes de #survey-form.
+
+ Todos los botones de radio deben tener un atributo value y un valor.
+
+ Todos tus botones de radio deben tener un atributo name y un valor.
+
+ Cada grupo de botones de opción debe tener al menos 2 botones de opción.
+
+ Debe tener al menos dos elementos de entrada con un tipo de casilla de verificación
+(casillas de verificación) que sean descendientes de #survey-form.
+
+ Todas las casillas de verificación dentro de #survey-form deben tener un atributo value y un valor.
+
+ Debes tener al menos un elemento textarea que sea descendiente de #survey-form.
+
+ Debes tener un elemento input o button con un id de submit.
+
+ Tu #submit debe tener un tipo de submit.
+
+ Tu #submit debe ser descendiente de #survey-form.
